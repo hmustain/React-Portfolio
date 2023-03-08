@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import MainContent from './components/Main';
 import About from './components/About';
+import Services from './components/Services';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <main>
         <MainContent />
         <About />
+        <Services />
       </main>
     </div>
   );
