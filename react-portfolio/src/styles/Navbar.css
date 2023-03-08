@@ -5,6 +5,8 @@
   }
   
   .navbar-nav .nav-link:hover {
-    text-decoration: underline;
+    /* border-bottom: 3px solid red;  */
+    padding-bottom: 5px; 
+    color: red;
   }
   
