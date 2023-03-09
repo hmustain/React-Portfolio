@@ -1,7 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/Contact.css';
 
 function Contact() {
+    const [formState, setFormState] = useState({
+        name: "",
+        email: "",
+        message: "",
+    })
+    function handleFormSubmit(event){
+        event.preventDefault()
+        console.log(formState);
+        window.location.href='mailto:hunter@bunkerbranding.com?subject='+ formState.name + "&body=" + formState.message
+    }
     return (
         <section id="contact" className="paralax-mf footer-paralax bg-image sect-mt4 route">
             <div className="container">
@@ -18,23 +28,29 @@ function Contact() {
                                             </h5>
                                         </div>
                                         <div>
-                                            <form className="php-email-form">
+                                            <form className="php-email-form" onSubmit={handleFormSubmit}>
                                                 <div className="row">
                                                     <div className="col-md-12 mb-3">
                                                         <div className="form-group">
                                                             <input type="text" name="name" className="form-control" id="name" placeholder="Your Name"
+                                                            value = {formState.name}
+                                                            onChange = {(event) => setFormState({...formState, name:event.target.value})}
                                                                 required />
                                                         </div>
                                                     </div>
                                                     <div className="col-md-12 mb-3">
                                                         <div className="form-group">
                                                             <input type="email" className="form-control" name="email" id="email" placeholder="Your Email"
+                                                            value = {formState.email}
+                                                            onChange = {(event) => setFormState({...formState, email:event.target.value})}
                                                                 required />
                                                         </div>
                                                     </div>
                                                     <div className="col-md-12">
                                                         <div className="form-group">
                                                             <textarea className="form-control" name="message" rows="5" placeholder="Message"
+                                                            value = {formState.message}
+                                                            onChange = {(event) => setFormState({...formState, message:event.target.value})}
                                                                 required></textarea>
                                                         </div>
                                                     </div>

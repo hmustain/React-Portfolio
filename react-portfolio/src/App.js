@@ -8,16 +8,28 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('Home');
+
+  const renderPage = () => {
+      if (currentPage === 'About') {
+          return <About />;
+        }
+        if (currentPage === 'Services') {
+          return <Services />;
+        }
+        if (currentPage === 'Projects') {
+          return <Projects />;
+        }
+        return <Contact />;
+  };
+  
+  const handlePageChange = (page) => setCurrentPage(page);
   return (
     <div>
-      <Navbar />
-      <main>
-        <MainContent />
-        <About />
-        <Services />
-        <Projects />
-        <Contact />
-      </main>
+      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+        <MainContent >
+        {renderPage()}
+        </MainContent>
     </div>
   );
 }
