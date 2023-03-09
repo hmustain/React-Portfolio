@@ -4,13 +4,13 @@ import '../styles/Contact.css';
 function Contact() {
     const [formState, setFormState] = useState({
         name: "",
-        email: "",
+        subject: "",
         message: "",
     })
     function handleFormSubmit(event){
         event.preventDefault()
         console.log(formState);
-        window.location.href='mailto:hunter@bunkerbranding.com?subject='+ formState.name + "&body=" + formState.message
+        window.location.href='mailto:hunter@bunkerbranding.com?subject='+ formState.subject + "&body=" + formState.message
     }
     return (
         <section id="contact" className="paralax-mf footer-paralax bg-image sect-mt4 route">
@@ -40,9 +40,9 @@ function Contact() {
                                                     </div>
                                                     <div className="col-md-12 mb-3">
                                                         <div className="form-group">
-                                                            <input type="email" className="form-control" name="email" id="email" placeholder="Your Email"
-                                                            value = {formState.email}
-                                                            onChange = {(event) => setFormState({...formState, email:event.target.value})}
+                                                            <input type="subject" className="form-control" name="subject" id="subject" placeholder="Subject"
+                                                            value = {formState.subject}
+                                                            onChange = {(event) => setFormState({...formState, subject:event.target.value})}
                                                                 required />
                                                         </div>
                                                     </div>
