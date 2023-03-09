@@ -6,7 +6,7 @@ import Services from './Services';
 import Navbar from './Navbar';
 
 export default function PortfolioContainer() {
-    const [currentPage, setCurrentPage] = useState('Home');
+    const [currentPage, setCurrentPage] = useState('About');
 
 const renderPage = () => {
     if (currentPage === 'About') {
