@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/Projects.css';
 
 function Projects() {
     return (
@@ -20,9 +21,9 @@ function Projects() {
             <div className="row">
               <div className="col-md-4">
                 <div className="work-box">
-                  <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
+                  <a href="../assets/images/work-1.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
                     <div className="work-img">
-                      <img src="assets/img/work-1.jpg" alt="" className="img-fluid"/>
+                      <img src="../assets/images/work-1.jpg" alt="" className="img-fluid"/>
                     </div>
                   </a>
                   <div className="work-content">
@@ -44,9 +45,9 @@ function Projects() {
               </div>
               <div className="col-md-4">
       <div className="work-box">
-        <a href="assets/img/work-2.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
+        <a href="" data-gallery="portfolioGallery" className="portfolio-lightbox">
           <div className="work-img">
-            <img src="assets/img/work-2.jpg" alt="" className="img-fluid" />
+            <img src="" alt="" className="img-fluid" />
           </div>
         </a>
         <div className="work-content">
@@ -68,9 +69,9 @@ function Projects() {
     </div>
     <div className="col-md-4">
   <div className="work-box">
-    <a href="assets/img/work-3.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
+    <a href=" "data-gallery="portfolioGallery" className="portfolio-lightbox">
       <div className="work-img">
-        <img src="assets/img/work-3.jpg" alt="" className="img-fluid" />
+        <img src="" alt="" className="img-fluid" />
       </div>
     </a>
     <div className="work-content">
@@ -92,9 +93,9 @@ function Projects() {
 </div>
 <div className="col-md-4">
   <div className="work-box">
-    <a href="assets/img/work-4.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
+    <a href="" data-gallery="portfolioGallery" className="portfolio-lightbox">
       <div className="work-img">
-        <img src="assets/img/work-4.jpg" alt="" className="img-fluid" />
+        <img src="" alt="" className="img-fluid" />
       </div>
     </a>
     <div className="work-content">
@@ -116,9 +117,9 @@ function Projects() {
 </div>
 <div className="col-md-4">
   <div className="work-box">
-    <a href="assets/img/work-5.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
+    <a href="" data-gallery="portfolioGallery" className="portfolio-lightbox">
       <div className="work-img">
-        <img src="assets/img/work-5.jpg" alt="" className="img-fluid" />
+        <img src="" alt="" className="img-fluid" />
       </div>
     </a>
     <div className="work-content">
@@ -140,9 +141,9 @@ function Projects() {
 </div>
 <div className="col-md-4">
       <div className="work-box">
-        <a href="assets/img/work-6.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
+        <a href="" data-gallery="portfolioGallery" className="portfolio-lightbox">
           <div className="work-img">
-            <img src="assets/img/work-6.jpg" alt="" className="img-fluid" />
+            <img src="" alt="" className="img-fluid" />
           </div>
         </a>
         <div className="work-content">
