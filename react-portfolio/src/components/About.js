@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/About.css"
+import hunterHs from '../styles/images/hunter-headshot.jpg';
 
 const About = () => {
     return (
@@ -13,7 +14,7 @@ const About = () => {
                     <div className="row">
                       <div className="col-sm-6 col-md-5">
                         <div className="about-img">
-                          <img src="" alt="" />
+                          <img src={hunterHs} alt="" />
                         </div>
                       </div>
                       <div className="col-sm-6 col-md-7">
