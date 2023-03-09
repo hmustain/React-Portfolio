@@ -11,6 +11,11 @@ function Contact() {
         event.preventDefault()
         console.log(formState);
         window.location.href='mailto:hunter@bunkerbranding.com?subject='+ formState.subject + "&body=" + formState.message
+        setFormState({
+            name: "",
+            subject: "",
+            message: "",
+        });
     }
     return (
         <section id="contact" className="paralax-mf footer-paralax bg-image sect-mt4 route">
