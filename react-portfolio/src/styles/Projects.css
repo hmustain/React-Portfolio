@@ -58,6 +58,8 @@
   .portfolio-mf {
     margin-top: 150px;
     overflow: auto;
+    min-height: calc(100vh - 100px);
+
   }
   
   .portfolio-mf .line-mf {
