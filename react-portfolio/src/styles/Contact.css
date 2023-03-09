@@ -1,0 +1,221 @@
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.box-shadow-full {
+    padding: 3rem 1.25rem;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+}
+
+
+.socials {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.socials .ico-circle {
+    height: 40px;
+    width: 40px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    line-height: 1.6;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px #0078ff;
+    transition: all 500ms ease;
+}
+.ico-circle {
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    display: block;
+}
+
+.list-ico {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .list-ico li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+
+.title-left {
+    font-size: 2rem;
+    position: relative;
+}
+
+.more-info p {
+    margin-top: 20px;
+  }
+
+
+  .title-box-2 {
+    margin-bottom: 40px;
+  }
+  
+  
+  
+
+h5 {
+    display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #1e1e1e;
+}
+
+.button-rouded {
+    border-radius: 5rem;
+}
+
+.button-big {
+    padding: 0.9rem 2.3rem;
+    font-size: 1.2rem;
+}
+.button-a {
+    text-decoration: none;
+    background-color: #0078ff;
+    color: #fff;
+    border-color: #cde1f8;
+}
+
+.bi {
+    color: black;
+}
+
+.footer-paralax {
+    padding: 4rem 0 0 0;
+  }
+  
+  .contact-mf {
+    margin-top: 4rem;
+  }
+  
+  @media (min-width: 767px) {
+    .contact-mf .box-pl2 {
+      margin-top: 3rem;
+      padding-left: 0rem;
+    }
+  }
+  
+  .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+  }
+  
+  .php-email-form input,
+  .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+  }
+  
+  .php-email-form input:focus,
+  .php-email-form textarea:focus {
+    border-color: #0078ff;
+  }
+  
+  .php-email-form input {
+    padding: 10px 15px;
+  }
+  
+  .php-email-form textarea {
+    padding: 12px 15px;
+    margin-bottom: 0;
+  }
+  
+  .php-email-form button[type=submit] {
+    background: #0078ff;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+  }
+  
+  .php-email-form button[type=submit]:hover {
+    background: #3393ff;
+  }
+
+  .php-email-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  
+  @-webkit-keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
