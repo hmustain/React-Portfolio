@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/About.css"
-import hunterHs from '../styles/images/hunter-headshot.jpg';
+import hunterHs from '../assets/images/hunter-headshot.jpg';
 
 const About = () => {
     return (

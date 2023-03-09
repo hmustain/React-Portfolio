@@ -1,6 +1,4 @@
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
+
 .work-box {
     margin-bottom: 3rem;
     -webkit-backface-visibility: hidden;
@@ -51,6 +49,17 @@
   
   .w-title {
     font-size: 1.2rem;
+  }
+  
+  .portfolio-mf .title-box {
+    margin-bottom: 30px;
+  }
+  
+  .portfolio-mf .line-mf {
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto 30px;
   }
   
  
