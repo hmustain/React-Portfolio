@@ -54,6 +54,11 @@
   .portfolio-mf .title-box {
     margin-bottom: 30px;
   }
+
+  .portfolio-mf {
+    margin-top: 150px;
+    overflow: auto;
+  }
   
   .portfolio-mf .line-mf {
     width: 40px;

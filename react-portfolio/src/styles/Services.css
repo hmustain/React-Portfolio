@@ -50,6 +50,12 @@
 .services-mf .title-box {
     margin-bottom: 30px;
   }
+
+  .services-mf {
+    margin-top: 100px;
+    overflow: auto;
+  }
+  
   
   .services-mf .line-mf {
     width: 40px;
