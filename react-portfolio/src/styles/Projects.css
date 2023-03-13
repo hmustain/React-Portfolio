@@ -9,6 +9,8 @@ html {
     backface-visibility: hidden;
     background-color: #fff;
     box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+
   }
   
   .work-box:hover img {
@@ -18,6 +20,8 @@ html {
   .work-img {
     display: block;
     overflow: hidden;
+    border-radius: 1rem;
+
   }
   
   .work-img img {
