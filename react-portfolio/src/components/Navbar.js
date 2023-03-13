@@ -7,7 +7,7 @@ function Navbar({ currentPage, handlePageChange }) {
       <header id="header" className="fixed-top">
         <nav className="navbar navbar-expand-lg navbar-dark bg-black fixed-top py-4">
           <div className="container justify-content-center">
-          <a class="navbar-brand" href="/">Hunter Mustain</a>
+          <a class="navbar-brand" href="React-Portfolio/">Hunter Mustain</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
