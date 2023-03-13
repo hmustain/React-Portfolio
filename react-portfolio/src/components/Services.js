@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Services.css';
-
+import resume from '../assets/HRM-resume.pdf';
 
 function Services() {
   return (
@@ -10,7 +10,7 @@ function Services() {
           <div className="col-sm-12">
             <div className="title-box text-center">
               <h3 className="title-a">
-                Services
+                Resume
               </h3>
               <p className="subtitle-a">
                 Technologies I can assist with include:
@@ -56,6 +56,19 @@ function Services() {
                 <p className="s-description text-center">
                   Can assist with full stack web development using MERN (Mongo, Express, React, &amp; Node)
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-12">
+            <div className="service-box">
+              <div className="service-ico">
+                <span className="ico-circle"><i className="bi bi-file-earmark-pdf"></i></span>
+              </div>
+              <div className="service-content">
+                <h2 className="s-title">Download my resume</h2>
+                <a href={resume} download>Click here to download</a>
               </div>
             </div>
           </div>
