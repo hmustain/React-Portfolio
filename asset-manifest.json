@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.5248b3cf.css",
+    "main.js": "/React-Portfolio/static/js/main.ab1a49a4.js",
+    "static/media/hunter-headshot.jpg": "/React-Portfolio/static/media/hunter-headshot.333bca30f8d37b3963b6.jpg",
+    "static/media/HRM-resume.pdf": "/React-Portfolio/static/media/HRM-resume.168a7d4e0efdc43bb3ec.pdf",
+    "static/media/bootstrap-icons.woff?": "/React-Portfolio/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/bootstrap-icons.woff2?": "/React-Portfolio/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "static/media/work-6.jpg": "/React-Portfolio/static/media/work-6.5d4801db53ca52b5147f.jpg",
+    "static/media/work-1.jpg": "/React-Portfolio/static/media/work-1.4977eb3d08d5c24b3f86.jpg",
+    "static/media/work-3.jpg": "/React-Portfolio/static/media/work-3.4977eb3d08d5c24b3f86.jpg",
+    "static/media/work-4.jpg": "/React-Portfolio/static/media/work-4.d6dadc0e0f5fa06fa670.jpg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.5248b3cf.css.map": "/React-Portfolio/static/css/main.5248b3cf.css.map",
+    "main.ab1a49a4.js.map": "/React-Portfolio/static/js/main.ab1a49a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5248b3cf.css",
+    "static/js/main.ab1a49a4.js"
+  ]
+}
