@@ -9,17 +9,26 @@
 
 .about-mf .about-img img {
   width: 80%;
-  /* max-width: 300px;  */
+  max-width: 300px; 
   margin-left: 10px;
   height: 220px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 25px;
 }
 
 .about-mf .about-img {
   padding-bottom: 2rem;
 }
+
+/* .about-img{
+   width: 400px;
+   height:500px;
+   border-radius:25px;
+   margin:2%;
+   padding:2%;
+} */
 
 @media (min-width: 767px) {
   .about-mf .box-pl2 {
