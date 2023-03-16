@@ -54,7 +54,7 @@ const About = () => {
                       </h5>
                     </div>
                     <p className="lead">
-                      Hi, my name is Hunter Mustain & I am currently in school learning to be a Full Stack Web Developer. I am currently enrolled in a coding bootcamp offered through the University of Texas at San Antonio.
+                      Hi, my name is Hunter Mustain & currently I am in school learning to be a Full Stack Web Developer. I attend a coding bootcamp offered through the University of Texas at San Antonio.
                     </p>
                     <p className="lead">
                       Professionally, I am employed with a local ecommerce company that specializes in online merch for social media influencers. I am responsible for managing the companies website and I have been with the company since 2020.
