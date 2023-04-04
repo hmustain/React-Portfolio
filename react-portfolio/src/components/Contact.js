@@ -10,7 +10,7 @@ function Contact() {
     function handleFormSubmit(event){
         event.preventDefault()
         console.log(formState);
-        window.location.href='mailto:hunter@bunkerbranding.com?subject='+ formState.subject + "&body=" + formState.message
+        window.location.href='mailto:hunt.mustain@gmail.com?subject='+ formState.subject + "&body=" + formState.message
         setFormState({
             name: "",
             subject: "",
@@ -84,7 +84,7 @@ function Contact() {
                                             </p>
                                             <ul className="list-ico">
                                                 <li><span className="bi bi-phone"></span> (903) 277-1960</li>
-                                                <li><span className="bi bi-envelope"></span> hunter@bunkerbranding.com</li>
+                                                <li><span className="bi bi-envelope"></span> hunt.mustain@gmail.com</li>
                                             </ul>
                                         </div>
                                         <div className="socials">

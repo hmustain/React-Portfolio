@@ -34,15 +34,15 @@ function Projects() {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Horiseon Website</h2>
+                        <h2 className="w-title">Google Book Search</h2>
                         <div className="w-more">
-                        <span className="w-ctegory"><a href="https://github.com/hmustain/02-Challenge">GitHub</a></span> / <span className="w-date">Oct 2022</span>
+                        <span className="w-ctegory"><a href="https://github.com/hmustain/MERN-Book-Search-Engine-GraphQL">GitHub</a></span> / <span className="w-date">Mar 2023</span>
 
                         </div>
                       </div>
                       <div className="col-sm-4">
                         <div className="w-like">
-                          <a href="https://hmustain.github.io/02-Challenge/"><span className="bi bi-plus-circle"></span></a>
+                          <a href="https://book-search-hm.herokuapp.com/"><span className="bi bi-plus-circle"></span></a>
                         </div>
                       </div>
                     </div>
@@ -59,14 +59,14 @@ function Projects() {
         <div className="work-content">
           <div className="row">
             <div className="col-sm-8">
-              <h2 className="w-title">Basic Portfolio</h2>
+              <h2 className="w-title">Cool Beans E-Commerce</h2>
               <div className="w-more">
-              <span className="w-ctegory"><a href="https://github.com/hmustain/Hunter-Mustain-Portfolio">GitHub</a></span> / <span className="w-date">Oct 2022</span>
+              <span className="w-ctegory"><a href="https://github.com/hmustain/Cool-Beans">GitHub</a></span> / <span className="w-date">Apr 2023</span>
               </div>
             </div>
             <div className="col-sm-4">
               <div className="w-like">
-                <a href="https://hmustain.github.io/Hunter-Mustain-Portfolio/"><span className="bi bi-plus-circle"></span></a>
+                <a href="https://cool-beans-ecommerce.herokuapp.com/"><span className="bi bi-plus-circle"></span></a>
               </div>
             </div>
           </div>

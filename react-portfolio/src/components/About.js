@@ -21,7 +21,7 @@ const About = () => {
                         <div className="about-info">
                           <p><span className="title-s">Name: </span> <span>Hunter Mustain</span></p>
                           <p><span className="title-s">Profile: </span> <span>Full Stack Web Developer</span></p>
-                          <p><span className="title-s">Email: </span> <span>hunter@bunkerbranding.com</span></p>
+                          <p><span className="title-s">Email: </span> <span>hunt.mustain@gmail.com</span></p>
                           <p><span className="title-s">Phone: </span> <span>(903) 277-1960</span></p>
                         </div>
                       </div>
