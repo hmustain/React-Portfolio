@@ -133,12 +133,12 @@ function Projects() {
         <div className="col-sm-8">
           <h2 className="w-title">Note Taker</h2>
           <div className="w-more">
-          <span className="w-ctegory"><a href="https://github.com/hmustain/Note-Taker">GitHub</a></span> / <span className="w-date">Jan 2023</span>
+          <span className="w-ctegory"><a href="https://github.com/hmustain/Bunker-Branding-Product-Desc">GitHub</a></span> / <span className="w-date">Jan 2023</span>
           </div>
         </div>
         <div className="col-sm-4">
           <div className="w-like">
-            <a href="https://note-taker-hm.herokuapp.com/"><span className="bi bi-plus-circle"></span></a>
+            <a href="https://bunker-product-desc.herokuapp.com/"><span className="bi bi-plus-circle"></span></a>
           </div>
         </div>
       </div>
